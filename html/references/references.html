@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>References</title>
+</head>
+<body>
+
+<!-- id="" explication dans le section Attributs -->
+<h2 id="debut">Balises simples</h2>
+
+<h3>Balises Titre</h3>
+
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+
+<h3>Balises communs</h3>
+
+<!-- Paragraph -->
+<!-- <br> pour aller à la ligne-->
+<!-- <strong></strong> pour montrer que c'est important: représenter en gras-->
+<!-- <em></em> pour montrer que c'est important mais moins que <strong></strong>: représenter en italique-->
+
+<p>Ceci est un paragraphe.<br></p>
+
+<p>Exemple d'utilisation de strong et em</p>
+<p>"<em>La clé de la réussite est de concentrer notre esprit sur les choses que nous désirons et non pas sur les choses que nous craignons.</em>» – <strong>Brian Tracy</strong>
+</p>
+
+<h3>Les listes</h3>
+
+<p>Liste ordonnée</p>
+
+<ol> <!-- Début liste -->
+	<li>element 1</li>
+	<li>element 2</li>
+	<li>element 3</li>
+</ol> <!-- Fin liste -->
+
+<p>Liste non ordonnée</p>
+
+<ul> <!-- Début liste -->
+	<li>element 1</li>
+	<li>element 2</li>
+	<li>element 3</li>
+</ul> <!-- Fin liste -->
+
+<h3>Images</h3>
+
+<!-- src="" On met le lien de l'image avec l'extension -->
+<!-- alt="" contenu texte si l'image n'existe pas -->
+
+<!-- option -->
+<!-- title="" texte qui apparait en survol-->
+
+<img src="" alt="image qui n'existe pas">
+
+<h3>Attributs</h3>
+<p>charset="", src="", href="",... sont des attributs que l'on rajoute au balises</p>
+
+<p>Attributs pour CSS</p>
+<p>Les attributs associé au CSS sont:</p>
+<p class="">class=""</p>
+<p id="">id=""</p> <!-- les id doivents être unique, ex: titre, logo,... -->
+<p id="" class="">On peut mettre les 2 mais c'est rare</p>
+
+<h3>Liens</h3>
+
+<p>Lien vers une autre page</p>
+
+<!-- href="" on met le lien de la page -->
+<p><a href="https://www.google.fr/">je vais voir google</a></p>
+
+<p>Lien interne (même page)</p>
+
+<!-- il fait mettre un # puis le nom de l'id -->
+<!-- Note: on ne peut pas faire un lien avec une classe -->
+
+<p><a href="#debut">je reviens au début</a></p>
+
+<h3>Les containers</h3>
+
+<p>Il existe plusieurs containers qui permet de décrire au navigateur le contenu</p>
+<header></header> <!-- en-tête -->
+<nav></nav> <!-- navigation - ex: les liens -->
+<section></section> <!-- section de la page -->
+<aside></aside> <!-- information sur le côté -->
+<article></article> <!-- un article -->
+<footer></footer> <!-- le pied de page -->
+
+<h3>Formulaire</h3>
+
+<!-- method="" indique par quel moyen les données vont être envoyées -->
+<!-- on peut mettre GET ou POST -->
+<!-- GET: limité à 255 charactères, les données seront envoyées dans la barre d'addresse -->
+<!-- ex: une recherche google -->
+<!-- POST: plus utilisé, pas de limite de charactères, les données ne sont pas envoyées dans la barre d'addresse -->
+<!-- Note: c'est la limite d'HTML, un langage "back" traitera les données -->
+
+<!-- action="" L'addresse de la page ou seront envoyé les informations saisies dans le formulaire -->
+<!-- le # dans action="" indique juste que l'on reste sur la même page -->
+
+<form method="POST" action="#"> <!-- début du formulaire -->
+<!-- type="" le type d'input -->
+<!-- name="" donne une information sur l'input -->
+<!-- option: -->
+<!-- placeholder="" donne un indice sur la valeur attendue -->
+	<input type="text" name="nom" placeholder="nom">
+	<input type="password" name="pass" placeholder="mot de passe">
+	<!-- value="" texte du bouton-->
+	<input type="submit" name="valider" value="Clique moi">
+	<!-- Note: Ne pas confondre avec <button></button> qui est seulement décoratif -->
+</form> <!-- fin du formulaire -->
+
+<p>Type d'input commun</p>
+text, password, email, checkbox, radio, submit, date
+
+
+<h3>Autre</h3>
+<p>
+Il existe beaucoup d'autres balises et d'attributs, <br>
+Voici le lien vers une liste plus complète: <br>
+<a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element">Référence HTML</a>
+</p>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+Niveau 1
+
+1. Tester toutes les balises communes dans le fichier références.
+
+Niveau Avancé
+
+2. faire un lien interne, externe, vers une image.
+
+3. ajouter une image externe (ex: href="http://www.image/img.jpg")
+
+4. ajouter un formulaire avec des inputs de type text, password, email, checkbox, radio, date, tel, color 
