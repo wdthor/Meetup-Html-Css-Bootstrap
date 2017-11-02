@@ -1,6 +1,6 @@
 ## Note
 
-Plusieurs aspects n'ont pas été ajouter volontairement pour simplifier le TP.  
+Plusieurs aspects n'ont pas été ajouté volontairement pour simplifier le TP.  
 Voici les aspects que vous pouvez ajouter si vous voulez aller plus loin:  
  1. le côté responsive du projet  
  2. les animations  
