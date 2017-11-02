@@ -1,0 +1,88 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	color: #333;
+	background-color: #ccc;
+}
+
+p {
+	font-family: "blackR";
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+section h3.title {
+	font-size: 1.6em;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+/*Section Halloween*/
+
+#halloween {
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+	color: black;
+	text-shadow: 1px 1px rgba(220, 20, 60, 0.6);
+}
+
+#halloween .background-image {
+	background-image: url(../img/backgroundZombie.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	z-index: -1;
+	opacity: 0.7;
+}
+
+#halloween h1 {
+	font-size: 2.8em;
+	margin-bottom: 15px;
+}
+
+#halloween h3.title {
+	margin-bottom: 50px;
+}
+
+#halloween a.btn {
+	font-family: "candara";
+	padding: 15px 40px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	background-color: crimson;
+}

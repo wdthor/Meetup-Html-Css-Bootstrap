@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+/*Pas besoin de modifier les styles généraux pour cette partie*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	color: #333;
+	background-color: #ccc;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+p {
+	font-family: "blackR";
+}
+
+hr {
+	width: 250px;
+	height: 3px;
+	background-color: crimson;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+/*Section Repaire*/
+
+/*Partie la plus simple à réaliser (à mon avis)*/

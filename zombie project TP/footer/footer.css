@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+/*Pas besoin de modifier les styles généraux pour cette partie*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	background-color: #ccc;
+	color: #333;
+}
+
+p {
+	font-family: "blackR";
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*Section Footer*/
+
+/*INDICES*/
+
+/*1 - J'ai utilisé flexbox 2 fois. Un pour le footer et un pour les listes (ul)*/
+/*2 - La couleur de fond est "crimson", mais libre à vous d'utiliser la couleur que vous voulez*/
+
+/*Note: il y a plusieurs façons de faire les choses, on peut très bien le faire sans flexbox, mais ça facilite les choses*/

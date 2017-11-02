@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+/*Pas besoin de modifier les styles généraux pour cette partie*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	background-color: #ccc;
+	color: #333;
+}
+
+p {
+	font-family: "blackR";
+}
+
+hr {
+	width: 250px;
+	height: 3px;
+	background-color: crimson;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+/*Section Zombie*/
+
+/*INDICES*/
+
+/*1. Flexbox est utilisé 3 fois. Un pour .presentation, un pour .resume, et un pour .photo*/
+/*2. La partie .resume fait 70% de la page et la partie .photo fait 30% de la page*/
+/*3. Il faut utiliser un padding pour .resume*/

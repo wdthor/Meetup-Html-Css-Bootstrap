@@ -1,0 +1,76 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	background-color: #ccc;
+	color: #333;
+}
+
+p {
+	font-family: "blackR";
+}
+
+hr {
+	width: 250px;
+	height: 3px;
+	background-color: crimson;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+/*Section Zombie*/
+
+section .presentation {
+	display: flex;
+}
+
+section div.resume {
+	display: flex;
+	flex-basis: 70%;
+	padding: 20px;
+	text-align: justify;
+}
+
+section div.resume p {
+	font-size: 1.05em;
+	align-self: center;
+}
+
+section div.photo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 30%;
+}
+
+.profile {
+	width: 180px;
+	border-radius: 50%;
+	align-self: center;
+	border: 2px solid silver;
+}

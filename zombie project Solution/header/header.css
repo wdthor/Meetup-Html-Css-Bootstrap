@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	color: #333;
+	background-color: #ccc;
+}
+
+nav ul{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*Section Header*/
+
+header {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 100px;
+}
+
+header ul{
+	display: flex;
+	margin-right: -15px;
+}
+
+header ul li {
+	margin: 0 15px;
+}

@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	color: #333;
+	background-color: #ccc;
+}
+
+p {
+	font-family: "blackR";
+}
+
+hr {
+	width: 250px;
+	height: 3px;
+	background-color: crimson;
+	border: 0;
+	margin-bottom: 20px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+/*Section Repaire*/
+
+section#repaire p {
+	margin-bottom: 20px;
+}
+
+section#repaire form p {
+	text-align: center;
+	margin-top: 20px;
+}
+
+form input {
+	padding: 15px;
+	outline: none;
+}

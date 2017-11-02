@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "qrank";
+	src: url(../font/qranklestein.ttf);
+}
+
+@font-face {
+	font-family: "blackR";
+	src: url(../font/blackR.woff);
+}
+
+/*Style généraux*/
+/*Pas besoin de modifier les styles généraux pour cette partie*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "qrank";
+	font-size: 1.4em;
+	color: #333;
+	background-color: #ccc;
+}
+
+p {
+	font-family: "blackR";
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+section h3.title {
+	font-size: 1.6em;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+/*Section Halloween*/
+
+#halloween .background-image {
+	background-image: url(../img/backgroundZombie.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*Il faut ajouter des paramètres*/
+
+}
+
+/*INDICES*/
+
+/*1. Flexbox est utilisé pour cette partie (justify-content)*/
+/*2. Il faut changer l'opacité*/
+/*3. Pour le lien (a.btn), il faut mettre un padding pour qu'il ai la forme d'un bouton*/
