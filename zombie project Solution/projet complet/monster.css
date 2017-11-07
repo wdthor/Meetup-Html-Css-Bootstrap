@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "qrank";
-	src: url(font/qranklestein.ttf);
+	src: url(../font/qranklestein.ttf);
 }
 
 @font-face {
 	font-family: "blackR";
-	src: url(font/blackR.woff);
+	src: url(../font/blackR.woff);
 }
 
 /*Style généraux*/
@@ -89,7 +89,7 @@ header ul li {
 }
 
 #halloween .background-image {
-	background-image: url(img/backgroundZombie.jpg);
+	background-image: url(../img/backgroundZombie.jpg);
 	position: absolute;
 	top: 0;
 	left: 0;
